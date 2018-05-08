@@ -50,18 +50,18 @@ class InterfazPanelTexto extends JFrame {
 		miPanel.setLayout(null);
 
 		labelTitulo = new JLabel();
-		labelTitulo.setText("CONTENEDOR JCROLLPANE");
+		labelTitulo.setText("CONTENEDOR JSCROLLPANE");
 		labelTitulo.setBounds(20, 20, 180, 23);
 		
 
-		texto = "El programa proporciona el área de texto como argumento al \nconstructor "
-				+ "del JScrollPane. Esto establece el área de texto \ncomo el cliente del panel "
+		texto = "El programa proporciona el area de texto como argumento al \nconstructor "
+				+ "del JScrollPane. Esto establece el area de texto \ncomo el cliente del panel "
 				+ "desplazable. El panel desplazable  \nmaneja todo esto: crear las barras de "
 				+ "desplazamiento cuando son necesarias, redibujar el cliente cuando  \nel usuario "
-				+ "se mueve sobre él, etc. Observa que el código de \nejemplo selecciona el tamaño "
-				+ "preferido del contenedor del \npanel desplazable. Una alternativa sería seleccionar "
-				+ "el \ntamaño preferido del propio panel desplazable. De cualquier \nmodo, se está "
-				+ "limitando el tamaño del panel desplazable. \nEsto es necesario porque el tamaño "
+				+ "se mueve sobre el, etc. Observa que el codigo de \nejemplo selecciona el tamaÃ±o "
+				+ "preferido del contenedor del \npanel desplazable. Una alternativa seria seleccionar "
+				+ "el \ntamaÃ±o preferido del propio panel desplazable. De cualquier \nmodo, se esta "
+				+ "limitando el tamaÃ±o del panel desplazable. \nEsto es necesario porque el tamaÃ±o "
 				+ "preferido de un panel \ndesplazable es ser tan grande como pueda. Por defecto, "
 				+ "un \npanel desplazable intenta redimensionarse para que su...";
 
